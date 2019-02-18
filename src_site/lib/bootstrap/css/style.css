@@ -5,36 +5,33 @@
 .bold {
   font-weight: 700; }
 
-  .contatotext{
-    font-size: 15px;
-  }
-
 hr {
-  width: 5.625rem;
+  width: 8.625rem;
   height: 0.1875rem;
-  background-color: #18e0a9; }
+  background-color: #966387;}
 
 .btn {
   padding: .5rem 1.5rem;
-  border: 1px solid #18e0a9;
+  border: 1px solid #fff;
   border-radius: 0;
-  color: #18e0a9;
+  color: #fff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
   .btn:hover {
-    background-color: #18e0a9;
+    background-color: #966387;
     color: #232323; }
 
 h2 {
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+color: #966387; }
 
 
 
 .menu-responsive {
-  background-color: #18e0a9;
+  background-color: #966387;
   padding: 2rem 0; }
   .menu-responsive ul {
     margin: 0;
@@ -63,11 +60,11 @@ h2 {
     -o-transition: all .3s;
     transition: all .3s; }
     .header__top--responsive ul li .menu-bars:hover, .header__top--responsive ul li .menu-bars:active {
-      color: #18e0a9; }
+      color: #966387; }
 
 header {
   height: 100vh;
-  background-image: url("https://a-static.besthdwallpaper.com/noite-terra-a-partir-do-espaco-papel-de-parede-4000x1333-12760_106.jpg");
+  background-image: url("https://steamusercontent-a.akamaihd.net/ugc/945076811362481440/FE33F05C1AE0D9CE0DE5EC7B25B8AC879D2651F3/");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top; }
@@ -90,7 +87,7 @@ header {
   align-items: flex-start; }
 
 .header__top-brand {
-  color: #18e0a9; }
+  color: #fff; }
   .header__top-brand .bold {
     text-transform: uppercase; }
   .header__top-brand h1 {
@@ -215,7 +212,7 @@ header {
     margin-bottom: 2rem; }
   #about .lead {
     font-size: 1.5rem;
-    color: #18e0a9;
+    color: #966387;
     font-weight: 700;
     margin-bottom: 1.5rem; }
   #about p {
@@ -228,7 +225,7 @@ header {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       #about p a:hover {
-        color: #18e0a9; }
+        color: #966387; }
   #about p + p {
     margin-bottom: 2rem; }
 
@@ -269,10 +266,10 @@ header {
       margin-bottom: 2.2rem; } }
 
 #skills {
-  background-color: #232323;
+  background-color: #aaaaaa5c;
   padding: 5rem 0; }
   #skills h2 {
-    color: #18e0a9;
+    color: #966387;
     text-align: center; }
   #skills hr {
     margin-bottom: 3rem; }
@@ -289,20 +286,20 @@ header {
       margin-right: 1.75rem;
       font-size: 4.5rem;
       font-weight: 700;
-      color: #ccc; }
+      color: #000; }
     #skills .skill .progress-container {
       -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
       font-size: 1.125rem;
-      color: #f3f3f3; }
+      color: #000000; }
       #skills .skill .progress-container .progress {
         border-radius: 0;
         margin-top: .35rem;
-        background-color: #373737; }
+        background-color: #e0e0e0; }
         #skills .skill .progress-container .progress .progress-bar {
           height: 1.125rem;
-          background-color: #18e0a9; }
+          background-color: #966387; }
 
 #portfolio {
   padding: 5rem 0;
@@ -319,7 +316,7 @@ header {
       right: .75rem;
       bottom: .75rem;
       left: .75rem;
-      background-color: #18e0a9;
+      background-color: #966387;
       padding-top: 4rem;
       opacity: 0;
       -webkit-transition: all .5s;
@@ -327,12 +324,16 @@ header {
       transition: all .5s;
       color: #232323; }
       #portfolio figure figcaption:hover {
-        background-color: rgba(0, 255, 108, 0.6);
+        background-color: #9663879e;
         opacity: 1; }
       #portfolio figure figcaption h3 {
-        text-transform: uppercase; }
+        text-transform: uppercase;color: #fff; }
+   h3 .h3:hover{
+         text-decoration: underline #fff;
+   }
+
       #portfolio figure figcaption p {
-        margin-bottom: 3rem; }
+        margin-bottom: 3rem; color: #fff; }
       #portfolio figure figcaption a {
         font-size: 2rem;
         color: #f3f3f3;
@@ -344,7 +345,7 @@ header {
 
 #contact {
   padding: 5rem 0;
-  background-color: #18e0a9;
+  background-color: #966387;
   text-align: center; }
   #contact .lead {
     margin-bottom: -.25rem;
@@ -361,7 +362,7 @@ header {
     color: #232323; }
     #contact .btn:hover {
       background-color: #232323;
-      color: #18e0a9; }
+      color: #966387; }
   #contact .contact__social {
     margin-top: 3rem;
     font-size: 2rem; }
@@ -387,7 +388,7 @@ header {
       -o-transition: all .3s;
       transition: all .3s; }
       #footer p a:hover {
-        color: #18e0a9; }
+        color: #966387; }
     #footer p .fa-heart {
       color: red; }
 
