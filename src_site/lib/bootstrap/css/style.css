@@ -5,6 +5,10 @@
 .bold {
   font-weight: 700; }
 
+  .contatotext{
+    font-size: 15px;
+  }
+
 hr {
   width: 5.625rem;
   height: 0.1875rem;
@@ -26,6 +30,8 @@ hr {
 h2 {
   text-transform: uppercase;
   font-weight: 700; }
+
+
 
 .menu-responsive {
   background-color: #18e0a9;
