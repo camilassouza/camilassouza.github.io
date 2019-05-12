@@ -1,10 +1,21 @@
 
+      
        body {
   font-family: "Montserrat"; }
 
 .bold {
   font-weight: 700; }
 
+
+.contatotext{
+  color: #fff!important;
+  font-size: 20px!important;
+  text-align: left;
+  }
+ 
+.iconrede{
+  width: 20%;
+}
 hr {
   width: 8.625rem;
   height: 0.1875rem;
@@ -309,7 +320,8 @@ header {
   #portfolio figure {
     position: relative; }
     #portfolio figure img {
-      width: 100%; }
+          width: 350px;
+    height: 236px; }
     #portfolio figure figcaption {
       position: absolute;
       top: .75rem;
@@ -338,6 +350,7 @@ header {
         font-size: 2rem;
         color: #f3f3f3;
         -webkit-transition: all 0.3s;
+        text-decoration: none;
         -o-transition: all 0.3s;
         transition: all 0.3s; }
         #portfolio figure figcaption a:hover {
