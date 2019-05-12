@@ -51,8 +51,7 @@
                </div>
 
                <div class="header__content">
-                   <p class="bold;">Olá!</p>
-                   <p>Sou uma <span class="bold">desenvolvedora Front-end Junior</span> e <span class="bold">Web Designer</span></p>
+                   <p> <span class="bold">Developer and Web Designer</span> </p>
                    <a class="btn scroll" href="#portfolio">Meu trabalho</a>
                </div>
 
@@ -149,10 +148,10 @@
            <div class="container">
                <div class="portfolio__projects">
                    <div class="row">
-                       <div class="col-lg-4 col-md-6">
+                       <div class="col-lg-6 col-md-6">
                            <figure>
                               <figcaption>
-                                <a href="//www.g100brasil.com/" target="_blank">
+                                <a href="//www.g100brasil.com/" target="_blank" class="site">
                                   <h3>G100</h3>
                                    <p>Site em Wordpress</p>
                                    <a href="http://"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
@@ -162,26 +161,39 @@
                                <img src="src_site/images/g100.png">
                            </figure>
                        </div>
-                       <div class="col-lg-4 col-md-6">
+                       <div class="col-lg-6 col-md-6">
                            <figure>
                                <figcaption>
-                                 <a href="//www.kwfleet.com.br/" target="_blank">
+                                 <a href="//www.kwfleet.com.br/" target="_blank" class="site">
                                    <h3>KWfleet</h3>
-                                   <p>Site em Bootstrap responsivo</p>
+                                   <!-- <p>Site em Bootstrap responsivo</p> -->
                                    <a href="https://kwfleet.com.br/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                </figcaption>
                                 <img src="src_site/images/kwfleet.png">
                            </figure>
                        </div>
-                       <div class="col-lg-4 col-md-6">
+                       <div class="col-lg-6 col-md-6">
                            <figure>
                                <figcaption>
-                                 <a href=# target="_blank">
+                                 <a href=# target="_blank" class="site">
                                    <h3>Cabanhas</h3>
-                                   <p>Site em Boostrap Resposivo</p>
+                                   <!-- <p>Site em Boostrap Resposivo</p> -->
                                    <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
                                </figcaption>
                                <img src="src_site/images/cabanha.png">
+                           </figure>
+                       </div>
+
+
+                        <div class="col-lg-6 col-md-6">
+                           <figure>
+                               <figcaption>
+                                 <a href="http://www.3etec.com.br/3etec/" target="_blank" class="site">
+                                   <h3>3Etec</h3>
+                                   <!-- <p>Site em Boostrap Resposivo</p> -->
+                                   <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                               </figcaption>
+                               <img src="src_site/images/3etec.png">
                            </figure>
                        </div>
 
@@ -191,15 +203,22 @@
 
        <section id="contact">
            <div class="container">
-               <p class="lead">Gostou ?</p>
                 <p>Entre em <span class="text-animate">contato!</span></p>
               <div class="row">
-                  <div class="col-lg-6 col-md-6">
-                  <p style="color: #fff; font-size: 30px;"> <span class="bold">E-mail: </span> cssmasterti@gmail.com </p>
+                  <div class="col-lg-4 col-md-4">
+
                 </div>
 
-                <div class="col-lg-6 col-md-6">
-                  <p style="color: #fff; font-size: 30px;"> <span class="bold">Telefone/WhatsApp: </span>  (11) 97758-2688
+                <div class="col-lg-4 col-md-4">
+                 <p class="contatotext"> <span class="bold">E-mail: </span> cssmasterti@gmail.com </p>
+
+                   <p class="contatotext"> <span class="bold">Telefone/WhatsApp: </span>  (11) 97758-2688</p>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4">
+                    <a href="//www.facebook.com/cams.santos.souza" target="_blank"><img src="src_site/images/icon1.png" class="iconrede">
+                    <a href="//www.instagram.com/eucamx/" target="_blank"><img src="src_site/images/icon2.png" class="iconrede">
+                    <a href="//www.linkedin.com/in/camilas-santos/" target="_blank"><img src="src_site/images/icon3.png" class="iconrede">
                   </div>
           </div>
                <div class="contact__social">
@@ -262,8 +281,8 @@
    var options = {
    whatsapp: "+5511977582688", // Número do WhatsApp
    // company_logo_url: "//www.webcreative.com.br/themes/webcreative/images/perfil.jpg", // URL com o logo da empresa
-   greeting_message: "Olá! Vamos conversar!", // Texto principal
-   call_to_action: "Vamos lá, tire suas dúvidas!.", // Chamada para ação
+   // greeting_message: "Olá! Vamos conversar!", // Texto principal
+   // call_to_action: "Vamos lá, tire suas dúvidas!.", // Chamada para ação
    position: "left", // Posição do widget na página 'right' ou 'left'
    };
    var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
@@ -272,3 +291,5 @@
    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
    })();
 </script>
+
+
