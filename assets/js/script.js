@@ -17,7 +17,7 @@ $(function() {
 // WHATSAPP
 (function() {
     var options = {
-        whatsapp: "+5511977582688", // Número do WhatsApp
+        whatsapp: "+5511939213209", // Número do WhatsApp
         // company_logo_url: "//www.webcreative.com.br/themes/webcreative/images/perfil.jpg", // URL com o logo da empresa
         // greeting_message: "Olá! Vamos conversar!", // Texto principal
         // call_to_action: "Vamos lá, tire suas dúvidas!.", // Chamada para ação
